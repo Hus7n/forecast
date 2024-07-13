@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(to right, #8e44ad, #9b59b6); /* Purple gradient */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/*  main app container */
+.App {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8); /* Transparent*/
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.App-header h1 {
+  margin: 0;
+  color: black; 
+}
+
+/* Style the input box */
+input[type="text"] {
+  padding: 15px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.5); /* Transparent */
+  font-size: 1.2em;
+  color:black; 
+}
+
+/* Style the button */
+button {
+  padding: 15px 25px;
+  margin: 15px;
+  border: 1px solid #4a235a; /* Dark purple border */
+  background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
+  color: #4a235a; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.2em;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.8); /*  less transparent */
+}
+
+p {
+  color: black; 
+  margin: 10px 0;
+}
